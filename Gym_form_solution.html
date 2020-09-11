@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+body {
+  background-image: url('gym.jpg');
+}
+
+fieldset {
+    margin-left: 900px;
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgba(255, 255, 255, 0.911);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+
+    <fieldset>
+        <h2>Deloitte Gym Sign up</h2>
+        <Form action="landing.html">
+            
+            <label>Title</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Mr</label>
+            <input type="radio" id="female" name="gender" value="female_married">
+            <label for="female">Mrs</label>
+            <input type="radio" id="other" name="gender" value="feamle">
+            <label for="other">Miss</label>
+<br><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" ><br><br>
+            
+
+            <label for="mail">Email</label><br>
+            <input type="email" id="e_mail" name="mail" required><br>
+
+            <label for="mobile">Phone Number:</label><br>
+            <input type="number" id="mob" name="mobile" ><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="pass" name="password"><br><br>
+
+            <label for="country">Country</label>
+            
+                <select name="country" id="country" >
+                    <option value="India">India</option>
+                    <option value="Austria">Austria</option>
+                    <option value="China">China</option>
+                    <option value="US">US</option>
+                    
+                </select><br><br>
+
+
+            <input type="checkbox" id="terms" name="tandc">
+            <label> I agree to the <a href="">terms and conditions</a></label><br><br>
+
+            <input type="reset"> <input type="submit"><br><br>
+
+
+
+
+
+
+        </Form>
+
+
+
+
+
+
+
+    </fieldset>
+
+
+</body>
+</html>
